@@ -108,7 +108,7 @@ document.querySelector("#submit").addEventListener('click', () => {
   if (totalMark === 60) {
     grade.status = "Excellent";
     grade.color = "text-green-600";
-  } else if (totalMark >= 40 && totalMark < 60) {
+  } else if (totalMark >= 30 && totalMark < 60) {
     grade.status = "Good";
     grade.color = "text-orange-600";
   } else {
